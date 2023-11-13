@@ -27,11 +27,41 @@
  * HINT: For making image fill the container use object-fit:cover property:
  *  https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit
  */
+ main .beige-box {
+  
+   margin: 4rem ;
+  padding: 2rem;
+  background-color:  burlywood;
+  border-radius: 2rem;
+  color: #f5f5f5;
+  text-align: center;
+  padding: 40px;
+  
+  border: 1;
+  border-radius:10px;
 
+  
+ }
+ main .light-box {
+  margin: 5rem ;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 2rem;
+  color: brown;
+  display: flex;
+flex-direction: column;
+justify-content:space-between;
+align-items: stretch;
+ }
 html {
   font-size: 1.0rem;
+  background-color: burlywood;
 }
+
+
+
 
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
+
